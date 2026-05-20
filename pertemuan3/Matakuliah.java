@@ -1,9 +1,54 @@
 package pertemuan3;
+/* Nama File : MataKuliah.java
+  Deskripsi : berisi atribut dan method dalam class Matakuliah
+  Creator   : Levi Ramot Siahaan
+  Tanggal   : 5 Maret 2026
+*/
 
-public class Matakuliah {
-    private String idMatkul;
-    private String nama;
-    private Int sks;
-
+public class MataKuliah {
     
+    /*ATRIBUT*/
+    private String idMatkul;
+    private String namamatkul;
+    private Integer sksmatkul;
+
+    /*METHOD*/
+    //SETTER
+    public void setIdMatkul(String idMatkul){
+        this.idMatkul = idMatkul;
+    }
+
+    public void setNamaMatkul(String namamatkul){
+        this.namamatkul = namamatkul;
+    }
+
+    public void setSKSMatkul(Integer sks){
+        this.sksmatkul = sks;
+    }
+
+    //Getter
+    public String getIdMatkul(){
+        return idMatkul;
+    }
+
+    public String getNamaMatkul(){
+        return namamatkul;
+    }
+
+    public Integer getSKSMatkul(){
+        return sksmatkul;
+    }
+
+    //Konstruktor Tanpa Parameter
+     public MataKuliah(){
+        
+    }
+
+    //Konstruktor dengan Parameter
+    public MataKuliah(String idMatkul,String namamatkul,Integer sks){
+        this.idMatkul = idMatkul;
+        this.namamatkul = namamatkul;
+        this.sksmatkul = sks;
+    }
+
 }

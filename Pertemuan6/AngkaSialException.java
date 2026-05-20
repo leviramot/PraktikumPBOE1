@@ -1,0 +1,12 @@
+/**
+ * File        : AngkaSialException.java
+ * Deskripsi   : Eksepsi buatan sendiri, menolak masukan angka 13!
+ * Nama        : Levi Ramot Siahaan
+ * NIM         : 24060124130067
+ * Tanggal     : 1 April 2026
+ */
+public class AngkaSialException extends Exception{
+    public AngkaSialException(){
+        super("jangan memasukkan angka 13 karena angka sial !!!");
+    }
+}
