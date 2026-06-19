@@ -1,7 +1,7 @@
 /* Nama File    : MTitik.java
  * Deskripsi    : berisi atribut dan method dalam class Titik
- * Pembuat      : Ida Bagus Ngurah Yudistira K
- * Tanggal      : 19 Febuari 2026
+ * Pembuat      : Levi Ramot Siahaan
+ * Tanggal      : 21 Febuari 2026
  */
 
 public class MTitik {

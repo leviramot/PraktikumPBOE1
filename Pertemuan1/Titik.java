@@ -1,7 +1,7 @@
 /* Nama File    : Titik.java
  * Deskripsi    : berisi atribut dan method dalam class Titik
  * Pembuat      : Levi ramot Siahaan
- * Tanggal      : 21 Febuari 2026
+ * Tanggal      : 19 Febuari 2026
  */
 
 public class Titik {
